@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget41"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_x="11dp"
+        android:layout_y="18dp"
+        android:inputType="numberSigned" />
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_x="205dp"
+        android:layout_y="18dp"
+        android:inputType="numberSigned" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="300dp"
+        android:layout_height="63dp"
+        android:layout_x="44dp"
+        android:layout_y="69dp"
+        android:textSize="25dp" />
+    <Button
+        android:id="@+id/add"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="+"
+        android:layout_x="30dp"
+        android:layout_y="150dp" />
+    <Button
+        android:id="@+id/multiply"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="*"
+        android:layout_x="110dp"
+        android:layout_y="150dp" />
+    <Button
+        android:id="@+id/devide"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="/"
+        android:layout_x="190dp"
+        android:layout_y="150dp" />
+    <Button
+        android:id="@+id/subtract"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="-"
+        android:layout_x="270dp"
+        android:layout_y="150dp" />
+    <ImageButton
+        android:id="@+id/widget42"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/calc"
+        android:layout_x="100dp"
+        android:layout_y="300dp" />
+</AbsoluteLayout>
