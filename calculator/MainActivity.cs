@@ -24,7 +24,7 @@ namespace calculator
 			EditText text1 = FindViewById<EditText>(Resource.Id.editText1);
 			EditText text2 = FindViewById<EditText>(Resource.Id.editText2);
 
-
+            ////////////////////////////////////////////////////////////
 			add.Click +=
 			delegate
 			{
@@ -43,7 +43,7 @@ namespace calculator
 				catch (FormatException)
 				{
 
-					view.Text = "Please enter a valid numbers ";
+					view.Text = "Please enter a valid numbers !";
 
 				}
 
@@ -65,7 +65,7 @@ namespace calculator
 
 					catch (FormatException)
 					{
-						view.Text = "Please enter a valid numbers ";
+						view.Text = "Please enter a valid numbers !";
 					}
 
 				};
@@ -85,7 +85,7 @@ namespace calculator
 
 						catch (FormatException)
 						{
-							view.Text = "Please enter a valid numbers ";
+							view.Text = "Please enter a valid numbers ! ";
 						}
 
 					};
@@ -105,7 +105,7 @@ namespace calculator
 
 						catch (FormatException)
 						{
-							view.Text = "Please enter a valid numbers ";
+							view.Text = "Please enter a valid numbers ! ";
 						}
 
 					};
